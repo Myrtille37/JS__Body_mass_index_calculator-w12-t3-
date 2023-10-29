@@ -1,0 +1,23 @@
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(206, 206, 203);
+}
+.calculater{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
+}
+#inputWeight,#inputHeight{
+    width: 200px;
+    height: 30px;
+    border-color: rgb(31, 30, 30);
+}
+#button{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
